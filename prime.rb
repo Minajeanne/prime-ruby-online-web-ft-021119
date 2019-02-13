@@ -1,5 +1,4 @@
 def prime?(num)
-  i = 0 
   (2..(num - 1)).each do |i|
   return false if num % i == 0 || num < 0 
   end
