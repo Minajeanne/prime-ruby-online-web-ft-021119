@@ -1,9 +1,8 @@
 def prime?(num)
   i = 1
-  
   return false if num % i == 0 || num < 0 
   else
-  return true
+  return true if num % 2 && 
 
 end
 
