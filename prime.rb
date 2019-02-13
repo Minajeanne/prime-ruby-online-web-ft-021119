@@ -4,6 +4,7 @@ def prime?(num)
   num % i != 0
   end
   true
+  end
 end
 
 #(2..num/2).none?{|i| num % i == i}
